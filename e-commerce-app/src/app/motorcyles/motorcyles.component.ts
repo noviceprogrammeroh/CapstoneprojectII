@@ -15,6 +15,7 @@ export class MotorcylesComponent implements OnInit {
       model : "S 1000 RR",
       manufacturer: "BMW",
       price: 16995,
+      image: "/assets/motobmw.jpeg"
       },
 
      {
@@ -22,6 +23,7 @@ export class MotorcylesComponent implements OnInit {
       model : "Deluxe",
       manufacturer: "Harley Davidson",
       price: 18399,
+      image: "/assets/harleydavidsondeluxe.jpeg"
 
       },
 
@@ -29,6 +31,7 @@ export class MotorcylesComponent implements OnInit {
       model : "CBR1000RR ",
       manufacturer: "Honda",
       price: 28500,
+      image: "/assets/hondacbr1000rr.jpeg"
 
       }
 

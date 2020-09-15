@@ -1,13 +1,13 @@
 
 
-<ul>
-<li *ngFor="let auto of carArray"
+<ul class="ul">
+<li class="li" *ngFor="let auto of carArray"
 (click)= "chooseCar(auto)"
 
 >
-<h1>Model:{{auto.model}}</h1>
-<h1>Manufacturer:{{auto.manufacturer}}</h1>
-<h1>Price :{{auto.price}}</h1>
+
+<h1>{{auto.manufacturer}}</h1>
+
 </li>
 </ul>
 
@@ -17,7 +17,7 @@
 
 
   <div class = "pics-cars">
-  <p style="text-align: center; font-size: 25px;color: rgb(184, 3, 3);font-weight: bold;
+  <p style=" padding-top:15px; text-align: center; font-size: 25px;color: rgb(184, 3, 3);font-weight: bold;
   ">Great choice! You've selected:</p>
   <h1 style="font-size: 25px; color: rgb(184, 3, 3);font-weight: bold;
   " >Model : {{selectCar.model}}</h1>
@@ -25,6 +25,9 @@
   ">Manufacturer : {{selectCar.manufacturer}}</h1>
   <h1 style="font-size: 25px;color:  rgb(184, 3, 3); font-weight: bold;
   ">Price : {{selectCar.price}}</h1>
+  <img class="image" src="{{selectCar.image}}">
+
+
 
   </div>
   <br>
@@ -33,7 +36,7 @@
 <ng-template #elseBlock>
 
 
-   <p style="text-align: center; padding-left: 10px; margin-left: 0px; margin-right: 0px; font-size: 40px;  color: rgb(156, 38, 38)">
+   <p style="text-align: center; padding-top: 60px; padding-left: 10px; margin-left: 0px; margin-right: 0px; font-size: 40px;  color: rgb(156, 38, 38)">
     Please choose a car from the above list</p>
 
   </ng-template>

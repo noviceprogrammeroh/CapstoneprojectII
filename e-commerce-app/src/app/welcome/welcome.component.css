@@ -1,0 +1,73 @@
+.div{
+
+
+  width:  1810px;
+
+
+
+}
+
+
+.heading1{
+width:  auto;
+background-color:rgba(27, 3, 3, 0.815) ;
+background-repeat: no-repeat;
+background-size: cover;
+font-size: 50px;
+font-weight: bold;
+padding-top: 20px;
+padding-left: 470px;
+padding-right: 10px;
+padding-bottom: 20px;
+margin: 0px;
+
+}
+
+
+
+ul{
+
+  height: 300px;
+  width:  auto;
+  background-color: black;
+  padding: 30px;
+
+  background: url(/assets/coolbackground.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: rgb(3, 14, 119);
+  font-size: 50px;
+  text-align: left;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+a{
+
+ color: rgb(122, 29, 29);
+ font-size: 30px;
+
+
+}
+
+.para{
+  padding-top: 70px;
+  padding-left: 70px;
+  padding-right: 10px;
+  margin-top: 0px;
+  margin: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background: url(/assets/coolbackground.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(143, 35, 35);
+  width:  auto;
+  height: 700px;
+  font-size: 25px;
+  font-weight: bolder;
+
+}

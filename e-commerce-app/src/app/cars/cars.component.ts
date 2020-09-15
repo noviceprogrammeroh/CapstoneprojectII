@@ -13,6 +13,7 @@ carArray: Car[] = [
     model : "Mustang",
     manufacturer: "Ford",
     price: 28000,
+    image: "/assets/fordmustang.jpeg",
     },
 
    {
@@ -20,14 +21,14 @@ carArray: Car[] = [
     model : "M5",
     manufacturer: "BMW",
     price: 45000,
-
+    image: "/assets/bmw2020.jpeg"
     },
 
    {
     model : "RS",
     manufacturer: "Audi",
     price: 55000,
-
+    image: "/assets/audiblackcar.jpeg"
     }
 
 

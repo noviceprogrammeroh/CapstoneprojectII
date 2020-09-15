@@ -2,12 +2,12 @@
 
 
 <ul>
-  <li *ngFor="let moto of motorcyclesArray"
+  <li style="list-style: none;" *ngFor="let moto of motorcyclesArray"
   (click) = "chooseMotorcycle(moto)"
   >
-  <h1>Model:{{moto.model}}</h1>
-  <h1>Manufacturer:{{moto.manufacturer}}</h1>
-  <h1>Price :{{moto.price}}</h1>
+
+  <h1 >{{moto.manufacturer}}</h1>
+
   </li>
   </ul>
 
@@ -26,7 +26,7 @@
     ">Manufacturer : {{selectMotorcycle.manufacturer}}</h1>
     <h1 style="font-size: 25px;color:  rgb(184, 3, 3); font-weight: bold;
     ">Price : {{selectMotorcycle.price}}</h1>
-
+     <img class="image" src="{{selectMotorcycle.image}}">
     </div>
     <br>
     <br>

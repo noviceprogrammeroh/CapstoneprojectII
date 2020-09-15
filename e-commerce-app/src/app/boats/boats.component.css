@@ -1,0 +1,31 @@
+
+   .image{
+
+
+    height: 400px;
+
+    width: 670px;
+    display: block;
+    border: 10px;
+    padding: 7px;
+
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+
+ }
+
+
+ .pics-boats{
+  padding-top: 0px;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: rgb(156, 38, 38);
+  margin-top: 0px;
+  border: 0px;
+ width: auto;
+ }

@@ -13,20 +13,23 @@ export class BoatsComponent implements OnInit {
       model : "Rio",
       manufacturer: "Yacht",
       price: 2500000,
+      image: "/assets/anotherluxuryyacht.jpeg"
       },
 
      {
 
       model : "Deluxe",
-      manufacturer: "Yacht",
+      manufacturer: "Yamaha",
       price: 3450000,
+      image: "/assets/luxuryrioyacht.jpeg"
 
       },
 
      {
       model : "Gallant Lady",
-      manufacturer: "Yacht",
+      manufacturer: "Lund",
       price: 4000000,
+      image: "/assets/gallantladyyacth.jpeg"
 
       }
 

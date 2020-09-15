@@ -1,7 +1,9 @@
+<div class='div2'>
+
+<a href='http://localhost:4200/'><button class="btn">back to Home</button></a>
 
 
-
-<ul>
+<ul class= "ul">
   <li style="list-style: none;" *ngFor="let moto of motorcyclesArray"
   (click) = "chooseMotorcycle(moto)"
   >
@@ -18,7 +20,7 @@
 
 
     <div class = "pics-bikes">
-    <p style="text-align: center; font-size: 25px;color: rgb(184, 3, 3);font-weight: bold;
+    <p style="text-align: center;   font-size: 25px;color: rgb(184, 3, 3);font-weight: bold;
     ">Great choice! You've selected:</p>
     <h1 style="font-size: 25px; color: rgb(184, 3, 3);font-weight: bold;
     " >Model : {{selectMotorcycle.model}}</h1>
@@ -34,7 +36,8 @@
   <ng-template #elseBlock>
 
 
-     <p style="text-align: center; padding-left: 10px; margin-left: 0px; margin-right: 0px; font-size: 40px;  color: rgb(156, 38, 38)">
+     <p style="text-align: center; padding-left: 10px; margin-left: 0px; margin-right: 850px; font-size: 40px;  color: rgb(156, 38, 38)">
       Please choose a motorcycle from the above list</p>
 
     </ng-template>
+    </div>

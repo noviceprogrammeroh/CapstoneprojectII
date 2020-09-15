@@ -3,25 +3,25 @@
 
 
     height: 400px;
-
-    width: 670px;
+    width: 600px;
     display: block;
     border: 0px;
-    padding: 5px;
-
+    padding: 1px;
     margin: 0px;
     margin-left: auto;
     margin-right: auto;
 
-
-
-
  }
+
 
  .ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  margin-right: 2250px;
+
+
+
 }
 
  .li
@@ -33,11 +33,47 @@
 
 .pics-cars{
   padding-top: 0px;
+  padding-bottom: 80px;
   text-align: center;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 600px;
   color: rgb(156, 38, 38);
   margin-top: 0px;
   border: 0px;
  width: auto;
  }
+
+
+ .btn{
+font-weight: bolder;
+padding-top:0px;
+  text-align: center;
+  background-color: rgb(182, 187, 187);
+  margin-top: 15px;
+  margin-right: 1px;
+
+
+
+
+ }
+
+
+ .div2 {
+  border: 10px solid black;
+  height: 900px;
+  width:  2000px;
+
+  padding: 1px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background: url(/assets/blackbackgroundpic.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: rgb(156, 38, 38);
+
+  text-align: center;
+  font-weight: bold;
+}

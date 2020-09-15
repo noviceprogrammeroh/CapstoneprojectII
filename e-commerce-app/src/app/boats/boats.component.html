@@ -1,0 +1,42 @@
+
+
+
+<ul>
+  <li *ngFor="let boat of boatArray"
+  (click)= "chooseBoat(boat)"
+
+  >
+  <h1>Model:{{boat.model}}</h1>
+  <h1>Manufacturer:{{boat.manufacturer}}</h1>
+  <h1>Price :{{boat.price}}</h1>
+  </li>
+  </ul>
+
+
+
+
+<div *ngIf="selectBoat; else elseBlock">
+
+
+
+  <div class = "pics-boats">
+  <p style="text-align: center; font-size: 25px;color: rgb(184, 3, 3);font-weight: bold;
+  ">Great choice! You've selected:</p>
+  <h1 style="font-size: 25px; color: rgb(184, 3, 3);font-weight: bold;
+  " >Model : {{selectBoat.model}}</h1>
+  <h1 style="font-size: 25px; color:  rgb(184, 3, 3); font-weight: bold;
+  ">Manufacturer : {{selectBoat.manufacturer}}</h1>
+  <h1 style="font-size: 25px;color:  rgb(184, 3, 3); font-weight: bold;
+  ">Price : {{selectBoat.price}}</h1>
+
+  </div>
+  <br>
+  <br>
+  </div>
+<ng-template #elseBlock>
+
+
+   <p style="text-align: center; padding-left: 10px; margin-left: 0px; margin-right: 0px; font-size: 40px;  color: rgb(156, 38, 38)">
+    Please choose a boat from the above list</p>
+
+  </ng-template>

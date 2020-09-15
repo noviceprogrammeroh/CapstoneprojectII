@@ -1,0 +1,40 @@
+
+
+
+<ul>
+  <li *ngFor="let moto of motorcyclesArray"
+  (click) = "chooseMotorcycle(moto)"
+  >
+  <h1>Model:{{moto.model}}</h1>
+  <h1>Manufacturer:{{moto.manufacturer}}</h1>
+  <h1>Price :{{moto.price}}</h1>
+  </li>
+  </ul>
+
+
+
+  <div *ngIf="selectMotorcycle; else elseBlock">
+
+
+
+    <div class = "pics-bikes">
+    <p style="text-align: center; font-size: 25px;color: rgb(184, 3, 3);font-weight: bold;
+    ">Great choice! You've selected:</p>
+    <h1 style="font-size: 25px; color: rgb(184, 3, 3);font-weight: bold;
+    " >Model : {{selectMotorcycle.model}}</h1>
+    <h1 style="font-size: 25px; color:  rgb(184, 3, 3); font-weight: bold;
+    ">Manufacturer : {{selectMotorcycle.manufacturer}}</h1>
+    <h1 style="font-size: 25px;color:  rgb(184, 3, 3); font-weight: bold;
+    ">Price : {{selectMotorcycle.price}}</h1>
+
+    </div>
+    <br>
+    <br>
+    </div>
+  <ng-template #elseBlock>
+
+
+     <p style="text-align: center; padding-left: 10px; margin-left: 0px; margin-right: 0px; font-size: 40px;  color: rgb(156, 38, 38)">
+      Please choose a motorcycle from the above list</p>
+
+    </ng-template>
